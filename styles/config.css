@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+}

@@ -1,0 +1,31 @@
+.navbar {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  height: 65px;
+}
+
+.navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  width: 42.5%;
+}
+
+.navbar__link {
+  font-family: "Open Sans Bold";
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.09091px;
+  text-decoration: none;
+  color: #48555b;
+}
+
+.navbar__link:hover {
+  text-decoration: underline;
+  text-decoration-color: #00a4e5;
+}
