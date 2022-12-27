@@ -23,9 +23,12 @@
   letter-spacing: 1.09091px;
   text-decoration: none;
   color: #48555b;
+
+  transition-property: color;
+  transition-duration: 0.2;
 }
 
 .navbar__link:hover {
-  text-decoration: underline;
-  text-decoration-color: #00a4e5;
+  color: #00a4e5;
+  transform: scaleX(1.07) scaleY(1.07);
 }

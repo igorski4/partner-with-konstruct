@@ -1,15 +1,15 @@
 .container-services {
+  padding-top: 68px;
   padding-bottom: 115px;
 }
 
 .services__content {
-  padding-bottom: 76px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 71px;
 }
 
-.content__title {
-  display: inline;
-  margin-right: 155px;
-
+.title__text {
   font-family: "Open Sans Bold";
   font-size: 18px;
   line-height: 25px;
@@ -17,10 +17,22 @@
   color: #48555b;
 }
 
+.title__hr {
+  margin-left: 0;
+  width: 50px;
+
+  background: #00a4e5;
+  border: 2px solid #00a4e5;
+}
+
 .content__text {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text__desc {
   width: 405.4px;
-  margin-right: 20px;
+  margin-right: 31.6px;
 
   font-family: "Open Sans Regular";
   font-size: 11px;
@@ -29,7 +41,7 @@
   color: #48555b;
 }
 
-.content__button {
+.text__button {
   width: 150px;
   height: 40px;
 
@@ -39,6 +51,7 @@
   letter-spacing: 0.5px;
   color: #ffffff;
 
+  cursor: pointer;
   background: #00a4e5;
   border: none;
 }

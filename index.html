@@ -28,7 +28,7 @@
   </head>
   <body>
     <header>
-      <section class="header">
+      <section class="header" id="header">
         <div class="container container-header">
           <img
             class="header__logo"
@@ -50,15 +50,15 @@
             <img src="./images/logo-black.svg" alt="Konstruct logo" />
           </div>
           <div class="navbar__menu">
-            <a class="navbar__link" href="#">HOME</a>
-            <a class="navbar__link" href="#">ABOUT</a>
-            <a class="navbar__link" href="#">SERVICES</a>
-            <a class="navbar__link" href="#">WORK</a>
-            <a class="navbar__link" href="#">CONTACT</a>
+            <a class="navbar__link" href="#header">HOME</a>
+            <a class="navbar__link" href="#about">ABOUT</a>
+            <a class="navbar__link" href="#services">SERVICES</a>
+            <a class="navbar__link" href="#get-in-touch">WORK</a>
+            <a class="navbar__link" href="#newsletter">CONTACT</a>
           </div>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="container container-about">
           <h2 class="about__title">OUR STORY</h2>
           <hr class="about__hr" />
@@ -84,6 +84,7 @@
                   src="./images/plan.jpg"
                   alt="We plan"
                 />
+                <p class="card__text">WE PLAN</p>
               </div>
               <div class="right__card card">
                 <img
@@ -91,6 +92,7 @@
                   src="./images/manage.jpg"
                   alt="We manage"
                 />
+                <p class="card__text">WE MANAGE</p>
               </div>
               <div class="right__card card">
                 <img
@@ -98,21 +100,27 @@
                   src="./images/deliver.jpg"
                   alt="We build"
                 />
+                <p class="card__text">WE BUILD</p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="services">
+      <section class="services" id="services">
         <div class="container container-services">
           <div class="services__content content">
-            <h2 class="content__title">OUR CAPABILITIES</h2>
-            <p class="content__text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat.
-            </p>
-            <button class="content__button">ALL SERVICES</button>
+            <div class="content__title title">
+              <h2 class="title__text">OUR CAPABILITIES</h2>
+              <hr class="title__hr" />
+            </div>
+            <div class="content__text text">
+              <p class="text__desc">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+              <button class="text__button">ALL SERVICES</button>
+            </div>
           </div>
           <div class="services__card card">
             <div class="card__item item">
@@ -157,22 +165,28 @@
           </div>
         </div>
       </section>
-      <section class="get-in-touch">
+      <section class="get-in-touch" id="get-in-touch">
         <div class="container container-get-in-touch">
           <h2 class="get-in-touch__title">Want to build something amazing?</h2>
           <button class="get-in-touch__button">GET IN TOUCH</button>
         </div>
       </section>
-      <section class="newsletter">
+      <section class="newsletter" id="newsletter">
         <div class="container container-newsletter">
           <h2 class="newsletter__title">Newsletter Signup</h2>
-          <input class="newsletter__input" type="email" name="" id="" />
-          <button class="newsletter__button">SIGNUP</button>
+          <div class="newsletter__input">
+            <input
+              class="input__email"
+              type="email"
+              placeholder="test@youremail.com"
+            />
+            <button class="input__button">SIGNUP</button>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-      <section class="footer">
+      <section class="footer" id="footer">
         <div class="container container__footer">
           <p class="footer__text">
             © 2017 Konstruct Inc. Designed by Jane Kathryn Teo

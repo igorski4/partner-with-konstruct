@@ -1,12 +1,14 @@
 .newsletter {
-  padding-top: 30px;
-  padding-bottom: 30px;
-
   background-color: #171819;
 }
 
+.container-newsletter {
+  padding: 30px 128px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .newsletter__title {
-  display: inline-block;
   font-family: "Open Sans Bold";
   font-size: 22px;
   line-height: 30px;
@@ -15,24 +17,33 @@
 }
 
 .newsletter__input {
-  display: inline-block;
-  width: 250px;
-  height: 40px;
+  font-size: 0;
 }
 
-.newsletter__button {
-  display: inline-block;
-  /* margin: 0 auto; */
+.input__email {
+  width: 250px;
+  height: 40px;
+  padding-left: 16px;
+
+  font-family: "Open Sans Regular";
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.07px;
+}
+
+.input__button {
+  box-sizing: border-box;
   width: 150px;
   height: 40px;
 
   font-family: "Open Sans Bold";
-  font-size: 13px;
+  font-size: 15px;
   line-height: 18px;
   text-align: center;
   letter-spacing: 0.5px;
   color: #ffffff;
 
+  cursor: pointer;
   background: #00a4e5;
   border: none;
 }
