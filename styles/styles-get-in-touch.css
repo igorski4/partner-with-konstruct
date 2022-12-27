@@ -1,0 +1,41 @@
+.get-in-touch {
+  background: url("../images/bg-get-in-touch.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-get-in-touch {
+  padding-top: 120px;
+  padding-bottom: 242px;
+}
+
+.get-in-touch__title {
+  margin: 0 auto;
+  margin-bottom: 35px;
+  width: 350px;
+
+  font-family: "Open Sans Bold";
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #48555b;
+}
+
+.get-in-touch__button {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 40px;
+
+  font-family: "Open Sans Bold";
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+
+  background: #00a4e5;
+  border: none;
+}

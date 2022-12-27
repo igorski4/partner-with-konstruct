@@ -16,7 +16,7 @@
   margin-bottom: 81px;
   width: 50px;
 
-  border: 1px solid #00a4e5;
+  border: 2px solid #00a4e5;
   background-color: #00a4e5;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .content__left {
-  width: 50%;
+  width: 42.5%;
 }
 
 .left__title {
@@ -52,6 +52,8 @@
 
 .content__right {
   display: flex;
-  justify-content: space-between;
-  width: 50%;
+  justify-content: flex-end;
+  gap: 20px;
+
+  width: 57.5%;
 }

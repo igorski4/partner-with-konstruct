@@ -1,0 +1,77 @@
+.container-services {
+  padding-bottom: 115px;
+}
+
+.services__content {
+  padding-bottom: 76px;
+}
+
+.content__title {
+  display: inline;
+  margin-right: 155px;
+
+  font-family: "Open Sans Bold";
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 2.30625px;
+  color: #48555b;
+}
+
+.content__text {
+  display: inline-block;
+  width: 405.4px;
+  margin-right: 20px;
+
+  font-family: "Open Sans Regular";
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #48555b;
+}
+
+.content__button {
+  width: 150px;
+  height: 40px;
+
+  font-family: "Open Sans Bold";
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+
+  background: #00a4e5;
+  border: none;
+}
+
+.services__card {
+  display: flex;
+  gap: 28px;
+}
+
+.card__item {
+  padding: 38px 22px 39px 23px;
+
+  outline: 1px solid #e6e6e6;
+}
+
+.item__image {
+  margin-bottom: 25px;
+}
+
+.item__title {
+  margin-bottom: 13px;
+
+  font-family: "Open Sans Bold";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.426667px;
+  color: #48555b;
+}
+
+.item__text {
+  font-family: "Open Sans Regular";
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.1875px;
+  color: #48555b;
+}
