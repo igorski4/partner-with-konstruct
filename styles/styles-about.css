@@ -4,6 +4,9 @@
 }
 
 .about__title {
+  display: block;
+  margin-bottom: 81px;
+
   font-family: "Open Sans Bold";
   font-size: 18px;
   line-height: 25px;
@@ -12,11 +15,15 @@
   color: #48555b;
 }
 
-.about__hr {
-  margin-bottom: 81px;
-  width: 50px;
+.about__title::after {
+  content: "";
 
-  border: 2px solid #00a4e5;
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  height: 4px;
+  margin-top: 11px;
+
   background-color: #00a4e5;
 }
 
@@ -74,4 +81,46 @@
   line-height: 29px;
   letter-spacing: 0.1875px;
   color: #ffffff;
+}
+
+@media (min-width: 375px) and (max-width: 980px) {
+  .container-about {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 940px) {
+  .about__content {
+    flex-direction: column;
+  }
+
+  .content__left,
+  .content__right {
+    margin: 0 auto;
+  }
+
+  .content__right {
+    justify-content: space-between;
+  }
+
+  .left__text {
+    margin-bottom: 30px;
+  }
+  .content__left {
+    width: 80%;
+  }
+  .about__title {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 840px) {
+  .content__right {
+    flex-wrap: wrap;
+  }
+
+  .right__card {
+    margin: 0 auto;
+  }
 }

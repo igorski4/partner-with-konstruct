@@ -1,5 +1,9 @@
 .navbar {
   border-bottom: 1px solid #e6e6e6;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 .container-navbar {
@@ -10,10 +14,13 @@
   height: 65px;
 }
 
+.navbar__logo {
+  padding-right: 20px;
+}
+
 .navbar__menu {
   display: flex;
-  justify-content: space-between;
-  width: 42.5%;
+  gap: 10px;
 }
 
 .navbar__link {
@@ -31,4 +38,22 @@
 .navbar__link:hover {
   color: #00a4e5;
   transform: scaleX(1.07) scaleY(1.07);
+}
+
+@media (min-width: 375px) and (max-width: 980px) {
+  .container-navbar {
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+
+  .navbar__link {
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 500px) {
+  .navbar__link {
+    font-size: 10px;
+    justify-content: space-between;
+  }
 }

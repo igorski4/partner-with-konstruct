@@ -47,3 +47,33 @@
   background: #00a4e5;
   border: none;
 }
+
+@media (min-width: 375px) and (max-width: 890px) {
+  .container-newsletter {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .newsletter__title,
+  .newsletter__input {
+    margin: 0 auto;
+  }
+
+  .newsletter__title {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 500px) {
+  .input__email {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .input__button {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+  }
+}
