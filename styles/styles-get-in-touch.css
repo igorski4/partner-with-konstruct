@@ -41,6 +41,14 @@
   border: none;
 }
 
+.get-in-touch__button:hover {
+  opacity: 0.9;
+}
+
+.get-in-touch__button:active {
+  opacity: 0.8;
+}
+
 @media (min-width: 375px) and (max-width: 940px) {
   .container-get-in-touch {
     padding-top: 60px;

@@ -1,9 +1,17 @@
 .navbar {
-  border-bottom: 1px solid #e6e6e6;
   background-color: #fff;
   position: sticky;
   top: 0;
   z-index: 2;
+}
+
+.navbar::after {
+  content: "";
+
+  display: block;
+  height: 1px;
+
+  background-color: #e6e6e6;
 }
 
 .container-navbar {

@@ -35,10 +35,18 @@
 }
 
 .header__scroll-down {
+  display: block;
+  margin: 0 auto;
+
   font-family: "Open Sans Regular";
   font-size: 11px;
   line-height: 15px;
   letter-spacing: 3.7px;
   text-align: center;
   color: #ffffff;
+  text-decoration: none;
+}
+
+.header__scroll-down:hover {
+  transform: scaleX(1.07) scaleY(1.07);
 }

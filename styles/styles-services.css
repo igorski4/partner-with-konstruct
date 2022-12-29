@@ -1,5 +1,5 @@
 .container-services {
-  padding-top: 68px;
+  padding-top: 88px;
   padding-bottom: 115px;
 }
 
@@ -57,6 +57,14 @@
   cursor: pointer;
   background: #00a4e5;
   border: none;
+}
+
+.text__button:hover {
+  opacity: 0.9;
+}
+
+.text__button:active {
+  opacity: 0.8;
 }
 
 .services__card {
