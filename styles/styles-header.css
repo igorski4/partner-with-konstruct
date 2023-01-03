@@ -1,8 +1,14 @@
 .header {
-  background: url("../images/bg-header.jpg");
+  background-image: url("../images/bg-header.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header {
+    background-image: url("../images/bg-header-2x.jpg");
+  }
 }
 
 .container-header {

@@ -5,6 +5,12 @@
   background-size: cover;
 }
 
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .get-in-touch {
+    background-image: url("../images/bg-get-in-touch-2x.jpg");
+  }
+}
+
 .container-get-in-touch {
   padding-top: 120px;
   padding-bottom: 242px;
