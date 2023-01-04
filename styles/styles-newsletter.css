@@ -2,8 +2,14 @@
   background-color: #171819;
 }
 
+.newsletter {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .container-newsletter {
-  padding: 30px 128px;
+  padding-left: 128px;
+  padding-right: 128px;
   display: flex;
   justify-content: space-between;
 }
@@ -56,10 +62,11 @@
   opacity: 0.8;
 }
 
-@media (min-width: 375px) and (max-width: 890px) {
+@media (max-width: 890px) {
   .container-newsletter {
     flex-direction: column;
-    padding: 30px 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .newsletter__title,
@@ -72,7 +79,7 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 500px) {
+@media (max-width: 500px) {
   .input__email {
     display: block;
     margin: 0 auto;

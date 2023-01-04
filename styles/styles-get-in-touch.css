@@ -11,7 +11,7 @@
   }
 }
 
-.container-get-in-touch {
+.get-in-touch {
   padding-top: 120px;
   padding-bottom: 242px;
 }
@@ -55,8 +55,12 @@
   opacity: 0.8;
 }
 
-@media (min-width: 375px) and (max-width: 940px) {
-  .container-get-in-touch {
+@media (max-width: 940px) {
+  .get-in-touch {
     padding-top: 100px;
+  }
+
+  .get-in-touch__title {
+    width: 80%;
   }
 }

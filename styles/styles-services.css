@@ -1,4 +1,4 @@
-.container-services {
+.services {
   padding-top: 88px;
   padding-bottom: 115px;
 }
@@ -6,7 +6,7 @@
 .services__content {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 71px;
+  margin-bottom: 71px;
 }
 
 .content__title {
@@ -100,14 +100,13 @@
   color: #48555b;
 }
 
-@media (min-width: 375px) and (max-width: 940px) {
+@media (max-width: 940px) {
   .container-services {
     padding: 68px 20px 66px;
   }
 
   .services__content {
     flex-direction: column;
-    padding-bottom: 30px;
   }
 
   .content__title {
