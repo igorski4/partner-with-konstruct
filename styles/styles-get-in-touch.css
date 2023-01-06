@@ -13,7 +13,7 @@
 
 .get-in-touch {
   padding-top: 120px;
-  padding-bottom: 242px;
+  padding-bottom: 0;
 }
 
 .get-in-touch__title {
@@ -55,12 +55,15 @@
   opacity: 0.8;
 }
 
+.get-in-touch__fix {
+  margin-top: 230px;
+  height: 1px;
+  width: 100%;
+  background-color: #171819;
+}
+
 @media (max-width: 940px) {
   .get-in-touch {
     padding-top: 100px;
-  }
-
-  .get-in-touch__title {
-    width: 80%;
   }
 }

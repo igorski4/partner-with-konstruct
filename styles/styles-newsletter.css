@@ -37,6 +37,10 @@
   letter-spacing: 0.07px;
 }
 
+.input__email:focus {
+  outline: none;
+}
+
 .input__button {
   box-sizing: border-box;
   width: 150px;
@@ -65,8 +69,7 @@
 @media (max-width: 890px) {
   .container-newsletter {
     flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0;
   }
 
   .newsletter__title,
@@ -79,7 +82,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 515px) {
   .input__email {
     display: block;
     margin: 0 auto;
